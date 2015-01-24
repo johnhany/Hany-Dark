@@ -1,0 +1,145 @@
+/*
+Theme Name: my-simone
+Layout: Sidebar-Content
+*/
+
+.site-content {
+        background: #474747;
+}
+
+.widget-area {
+	float: left;
+	width: 310px;
+        margin-left: 100px;
+}
+
+.content-area {
+        font-family: "Microsoft YaHei", 微软雅黑;
+	float: right;
+        width: 100%;
+	margin-left: -410px;
+        padding-left: 410px;
+}
+
+.content-area .site-main {
+        margin-top: 0;
+        margin-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 100px;
+}
+
+.entry-body {
+        margin-top: 40px;
+        padding: 4px 24px 12px 24px;
+        -moz-border-radius: 10px; 
+        -webkit-border-radius: 10px; 
+        border-radius: 10px;
+        background: #ffffff;
+}
+
+.entry-header h1 {
+        margin: 10px 0;
+}
+
+.entry-header h1 a{
+        font-size: 24px;
+        color: #000000;
+}
+
+.entry-content {
+        margin: 10px 0;
+}
+
+.entry-content img,
+.entry-content figure {
+        overflow: hidden;
+}
+
+.entry-summary {
+        margin: 20px 0 10px 0;
+}
+
+.entry-header span,
+.entry-footer span {
+        padding-right: 24px;
+}
+.entry-footer a {
+        padding: 0 4px;
+}
+
+/*
+.post-navigation .nav-previous a:before,
+.post-navigation .nav-next div:after {
+        display: block;
+        float: left;
+        padding: 2px 8px 0 0;
+        font-family: 'fontawesome';
+        font-size: 14px;
+        color: #73727c;
+}
+
+.post-navigation .nav-previous a:before { content: "\f053"; }
+.post-navigation .nav-next div:after { content: "\f054"; }
+*/
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+    position: relative;
+
+}
+
+.site-footer .widget-area {
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1280px) {
+    .widget-area {
+        margin-left: 24px;
+    }
+    
+    .content-area {
+        margin-left: -340px;
+        padding-left: 340px;
+    }
+    
+    .content-area .site-main {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .widget-area {
+        width: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
+    .widget-area .widget {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .content-area {
+        margin-left: 24px;
+        padding-left: 24px;
+    }
+    
+    .content-area .site-main {
+        padding-left: 0;
+        padding-right: 24px;
+    }
+}
